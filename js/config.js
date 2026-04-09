@@ -22,119 +22,119 @@ const SITE_CONFIG = {
 
 // API站点
 const API_SITES = {
-    dy: {
+    DY: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂'
     },
-    ry: {
+    RY: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意资源'
     },
-    bf: {
+    PF: {
         api: 'https://bfzyapi.com/api.php/provide/vod',
         name: '暴风资源'
     },
-    ty: {
+    TY: {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯资源'
     },
-    ff: {
+    FF: {
         api: 'http://ffzy5.tv/api.php/provide/vod',
         name: '非凡资源'
     },
-    zy: {
+    ZY: {
         api: 'https://360zy.com/api.php/provide/vod',
         name: '360资源'
     },
-    wl: {
+    WL: {
         api: 'https://wolongzyw.com/api.php/provide/vod',
         name: '卧龙资源'
     }, 
-    js: {
+    JS: {
         api: 'https://jszyapi.com/api.php/provide/vod',
         name: '极速资源'
     },
-    db: {
+    DB: {
         api: 'https://dbzy.tv/api.php/provide/vod',
         name: '豆瓣资源'
     },
-    md: {
+    MD: {
         api: 'https://www.mdzyapi.com/api.php/provide/vod',
         name: '魔都资源'
     },
-    zd: {
+    ZD: {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
         name: '最大资源'
     },
-    yh: {
+    YH: {
         api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
         name: '樱花资源'
     },
-    bd: {
+    BD: {
         api: 'https://api.apibdzy.com/api.php/provide/vod',
         name: '百度资源'
     },
-    wj: {
+    WJ: {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
         name: '无尽资源'
     },
-    ww: {
+    WW: {
         api: 'https://wwzy.tv/api.php/provide/vod',
         name: '旺旺短剧'
     },
-    ik: {
+    IG: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: '爱坤资源'
     },
-    lz: {
+    LZ: {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
         name: '量子资源'
     },
-    xd: {
-        api: 'https://xdvod.com/api.php/provide/vod',
-        name: '兄弟资源'
+    HN: {
+        api: 'https://www.hongniuzy2.com/api.php/provide/vod',
+        name: '红牛资源'
     },
-    xc: {
-        api: 'https://www.qynijian.com/api.php/provide/vod',
-        name: '星辰资源'
+    GZ: {
+        api: 'https://api.guangsuapi.com/api.php/provide/vod',
+        name: '光速资源'
     },
-    cra: {
+    CRA: {
         api: 'https://www.ckzy1.com/api.php/provide/vod',
         name: '瑟瑟源一',
         adult: true
     },
-    crb: {
+    CRB: {
         api: 'https://jkunzyapi.com/api.php/provide/vod',
         name: '瑟瑟源二',
         adult: true
     },
-    crc: {
-        api: 'https://api.souavzy.vip/api.php/provide/vod',
+    CRC: {
+        api: 'https://155api.com/api.php/provide/vod',
         name: '瑟瑟源三',
         adult: true
     },
-    crd: {
-        api: 'https://155api.com/api.php/provide/vod',
+    CRD: {
+        api: 'https://apilsbzy1.com/api.php/provide/vod',
         name: '瑟瑟源四',
         adult: true
     },
-    cre: {
-        api: 'https://apilsbzy1.com/api.php/provide/vod',
+    CRE: {
+        api: 'https://hsckzy.vip/api.php/provide/vod',
         name: '瑟瑟源五',
         adult: true
     },
-    cef: {
-        api: 'https://hsckzy.vip/api.php/provide/vod',
+    CRF: {
+        api: 'https://yutuzy10.com/api.php/provide/vod',
         name: '瑟瑟源六',
         adult: true
     },
-    crg: {
-        api: 'https://yutuzy10.com/api.php/provide/vod',
+    CRG: {
+        api: 'https://naixxzy.com/api.php/provide/vod',
         name: '瑟瑟源七',
         adult: true
     },
-    crh: {
-        api: 'https://naixxzy.com/api.php/provide/vod',
+    CRH: {
+        api: 'https://www.jingpinx.com/api.php/provide/vod',
         name: '瑟瑟源八',
         adult: true
     },
