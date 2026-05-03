@@ -530,7 +530,10 @@ function renderDoubanCards(data, container) {
             
             // 处理图片URL
             // 1. 直接使用豆瓣图片URL (添加no-referrer属性)
+            // 新代码：使用 weserv.nl 作为代理
+            const proxyUrl = 'https://images.weserv.nl/?url=';
             const originalCoverUrl = item.cover;
+            const finalImageUrl = proxyUrl + encodeURIComponent(originalCoverUrl);
             
             // 2. 也准备代理URL作为备选
             const proxiedCoverUrl = PROXY_URL + encodeURIComponent(originalCoverUrl);
