@@ -201,7 +201,7 @@ async function fillAndSearchWithDouban(title) {
     // 确保豆瓣资源API被选中
     if (typeof selectedAPIs !== 'undefined' && !selectedAPIs.includes('DB')) {
         // 在设置中勾选豆瓣资源API复选框
-        const doubanCheckbox = document.querySelector('input[id="api_dbzy"]');
+        const doubanCheckbox = document.querySelector('input[id="api_DB"]');
         if (doubanCheckbox) {
             doubanCheckbox.checked = true;
             
