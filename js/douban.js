@@ -382,7 +382,7 @@ function setupDoubanRefreshBtn() {
 }
 
 function fetchDoubanTags() {
-    const movieTagsTarget = `https://movie.douban.cmliussss.com/j/search_tags?type=movie`
+    const movieTagsTarget = `https://movie.douban.com/j/search_tags?type=movie`
     fetchDoubanData(movieTagsTarget)
         .then(data => {
             movieTags = data.tags;
@@ -393,7 +393,7 @@ function fetchDoubanTags() {
         .catch(error => {
             console.error("获取豆瓣热门电影标签失败：", error);
         });
-    const tvTagsTarget = `https://movie.douban.cmliussss.com/j/search_tags?type=tv`
+    const tvTagsTarget = `https://movie.douban.com/j/search_tags?type=tv`
     fetchDoubanData(tvTagsTarget)
        .then(data => {
             tvTags = data.tags;
@@ -423,7 +423,7 @@ function renderRecommend(tag, pageLimit, pageStart) {
     container.classList.add("relative");
     container.insertAdjacentHTML('beforeend', loadingOverlayHTML);
     
-    const target = `https://movie.douban.cmliussss.com/j/search_subjects?type=${doubanMovieTvCurrentSwitch}&tag=${tag}&sort=recommend&page_limit=${pageLimit}&page_start=${pageStart}`;
+    const target = `https://movie.douban.com/j/search_subjects?type=${doubanMovieTvCurrentSwitch}&tag=${tag}&sort=recommend&page_limit=${pageLimit}&page_start=${pageStart}`;
     
     // 使用通用请求函数
     fetchDoubanData(target)
@@ -451,7 +451,7 @@ async function fetchDoubanData(url) {
         signal: controller.signal,
         headers: {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
-            'Referer': 'https://movie.douban.cmliussss.com/',
+            'Referer': 'https://movie.douban.com/',
             'Accept': 'application/json, text/plain, */*',
         }
     };
